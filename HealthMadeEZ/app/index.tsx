@@ -12,6 +12,14 @@ export default function Index() {
         Skip the ER Paperwork. Save Time. Save Lives.
       </Text>
 
+      {/* New button for Phone Authentication */}
+      <TouchableOpacity
+        style={styles.button}
+        onPress={() => router.push("/PhoneAuth")}  // Must match your PhoneAuth route
+      >
+        <Text style={styles.buttonText}>Phone Authentication</Text>
+      </TouchableOpacity>
+
       <TouchableOpacity
         style={styles.button}
         onPress={() => router.push("/qr")}
