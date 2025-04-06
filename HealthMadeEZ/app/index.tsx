@@ -26,7 +26,6 @@ export default function Index() {
         <Text style={styles.buttonText}>Profile</Text>
       </TouchableOpacity>
 
-      {/* 🚀 New Button to Upload Medical Documents */}
       <TouchableOpacity
         style={styles.button}
         onPress={() => router.push("/healthrecord")}
